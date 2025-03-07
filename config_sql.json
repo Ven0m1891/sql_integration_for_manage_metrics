@@ -1,0 +1,30 @@
+{
+  "connect": {
+    "PORT": "5432",
+    "SERVER": "localhost",
+    "LOGIN": "postgres",
+    "PASSWORD": "your_password"
+  },
+  "sql": {
+    "ProjectA": {
+      "main_table": "project_a_main",
+      "sku_table": "project_a_sku",
+      "metrics_online_table": "project_a_metrics_online"
+    },
+    "ProjectB": {
+      "main_table": "project_b_main",
+      "sku_table": "project_b_sku",
+      "metrics_online_table": "project_b_metrics_online"
+    },
+    "ProjectC": {
+      "main_table": "project_c_main",
+      "sku_table": "project_c_sku",
+      "metrics_online_table": "project_c_metrics_online"
+    },
+    "ProjectD": {
+      "main_table": "project_d_main",
+      "sku_table": "project_d_sku",
+      "metrics_online_table": "project_d_metrics_online"
+    }
+  }
+}
